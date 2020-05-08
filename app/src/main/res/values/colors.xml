@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#C5FFFFFF</color>
+    <color name="colorPrimaryDark">#EC000000</color>
+    <color name="colorAccent">#C514D3A6</color>
+    <color name="colorCornflowerBlue">#C514D3A6</color>
+    <color name="colorCornflower">#C514D3A6</color>
+</resources>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp"
+    android:paddingTop="20dp"
+    android:paddingBottom="20dp"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/request_updates_button"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="260dp"
+        android:layout_gravity="center_horizontal"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:background="@drawable/button_shape"
+        android:textSize="14sp"
+        android:layout_marginBottom="40dp"
+        android:textStyle="bold"
+        android:layout_height="40dp"
+        android:fontFamily="@font/nunito_extralight"
+        android:onClick="requestUpdatesHandler"
+        android:text="Request Activity Updates" />
+
+
+    <TextView
+        android:id="@+id/detected_activities_textview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/nunito_extralight"
+        android:textSize="14sp" />
+
+
+</LinearLayout>
+
